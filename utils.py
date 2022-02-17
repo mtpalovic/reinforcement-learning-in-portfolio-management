@@ -1,38 +1,38 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import numpy as np
 
 
-# In[144]:
+# In[ ]:
 
 
 a = np.array([[12,7,3],[4,5,6],[7,8,9]])
 b = np.array([[5,8,1,2],[6,7,3,0],[4,5,9,1]])
 
 
-# In[145]:
+# In[ ]:
 
 
 r = np.zeros((3,4),dtype=int)
 
 
-# In[146]:
+# In[ ]:
 
 
 a
 
 
-# In[147]:
+# In[ ]:
 
 
 b
 
 
-# In[159]:
+# In[ ]:
 
 
 for i in range(len(a),1):
@@ -44,7 +44,7 @@ for i in range(len(a),1):
             r[i][j] += a[i][k]*b[k][j]
 
 
-# In[2]:
+# In[ ]:
 
 
 i = np.array([1,2,3,4,5])
@@ -53,7 +53,7 @@ q = np.dot(i,j)
 q
 
 
-# In[2]:
+# In[ ]:
 
 
 a = 2 * [20]
